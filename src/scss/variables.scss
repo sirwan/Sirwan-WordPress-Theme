@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+// $primary:       $blue !default;
+// $secondary:     $gray-600 !default;
+// $success:       $green !default;
+// $info:          $cyan !default;
+// $warning:       $yellow !default;
+// $danger:        $red !default;
+
+$teal:      #253944;
+$yellow:    #F4E8D4;
+$blue:      #99BBCF;
+// fonts
+$font-family: 'Poppins', sans-serif;
+$font-color: #99BBCF;
+$heading-color: #F0E1C8;
+$heading-font-weight: 500;
+
+// links
+$link-color: #F0E1C8;
+
+// @debug map-set($spacers, "6", $spacer * 4);
+
+$theme-colors: (
+     "primary": #FF69B4
+);
+
+// spacing
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer / 4,
+  2: $spacer / 2,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 6,
+);

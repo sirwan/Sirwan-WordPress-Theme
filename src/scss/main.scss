@@ -1,0 +1,126 @@
+@import "variables";
+@import "node_modules/bootstrap/scss/bootstrap";
+
+body{
+    background-color: $yellow;
+    font-family: $font-family;
+    color: $teal;
+    font-weight: 100;
+}
+
+p{
+    font-weight: 100;
+    line-height: $line-height-lg;
+}
+
+a {
+
+}
+
+.pre-title {
+    color: $heading-color;
+    letter-spacing: 5px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+h2 {
+    line-height: $line-height-base;
+}
+
+// h2 {
+//     font-weight: $heading-font-weight;
+//     color: $heading-color;
+// }
+
+nav.primary {
+    text-transform: uppercase;
+    z-index: 99;
+    &--light {
+        color: $yellow;
+        a {
+            color: $yellow;
+        }
+    }
+
+    &--dark {
+        color: $teal;
+        a{
+            color: $teal;
+        }
+    }
+
+    .logo {
+        letter-spacing: 1px;
+        font-weight: 500;
+        font-size: $font-size-base;
+    }
+
+    .links {
+        list-style: none;
+        list-style-type: none;
+        margin: 0px; padding: 0px;
+        li{
+            display: inline-block;
+            a.link{
+                text-decoration: none;
+                letter-spacing: 1px;
+            }
+        }
+    }
+
+
+
+
+}
+
+.background {
+    &--dark {
+        background-color: $teal-500;
+        color: $yellow-500;
+    }
+
+    &--light {
+        background-color: $yellow;
+        color: $teal-500;
+        h1,h2,h3,h4,h5 {
+            color: $teal-500;
+        }
+    }
+}
+
+.footer {
+
+}
+
+.has-baby-blue-color{
+    color: $blue-300;
+}
+
+.has-cream-color{
+    color: $yellow;
+}
+
+.underline-teal::after {
+
+    content: '';
+    width: 150px;
+    height: 4px;
+    background-color: #d7dfe3;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 30px;
+
+}
+
+.underline-cream::after {
+
+    content: '';
+    width: 150px;
+    height: 4px;
+    background-color: #eadac1;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 30px;
+
+}

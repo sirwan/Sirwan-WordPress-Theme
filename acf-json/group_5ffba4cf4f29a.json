@@ -1,0 +1,48 @@
+{
+    "key": "group_5ffba4cf4f29a",
+    "title": "Template Options",
+    "fields": [
+        {
+            "key": "field_5ffba4ea42ab5",
+            "label": "Navigation Theme",
+            "name": "navigation_theme",
+            "type": "radio",
+            "instructions": "Select the navigation type.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "dark": "Dark Navigation",
+                "light": "Light Navigation"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "default_value": "Dark Navigation",
+            "layout": "vertical",
+            "return_format": "value",
+            "save_other_choice": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "page"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "side",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1610334638
+}
